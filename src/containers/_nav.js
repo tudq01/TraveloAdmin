@@ -29,26 +29,26 @@ const _nav = [
   {
     component: CNavTitle,
     name: 'Quản lý khu',
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   {
     component: CNavItem,
     name: 'Danh sách khu',
     to: '/areas',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   {
     component: CNavTitle,
     name: 'Quản lý căn',
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   {
     component: CNavItem,
     name: 'Danh sách căn',
     to: '/houses',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   /*
   {
@@ -85,21 +85,21 @@ const _nav = [
   },*/ {
     component: CNavTitle,
     name: 'Chat',
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   {
     component: CNavItem,
     name: 'Tư vấn',
     to: '/chat',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   {
     component: CNavItem,
     name: 'Tư vấn theo SDT',
     to: '/chat/phone',
     icon: <CIcon icon={cilDrop} customClassName="nav-icon" />,
-    permission: [Roles.SALE, Roles.ADMIN],
+    permission: [Roles.SALE],
   },
   {
     component: CNavTitle,
